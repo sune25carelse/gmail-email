@@ -24,7 +24,7 @@ function Sidebar() {
       <Button
         startIcon={<AddIcon fontSize="Large" />}
         className="sidebar__compose"
-        onClick={() => dispatch(openSendMessage)}
+        onClick={() => dispatch(openSendMessage())}
       >
         COMPOSE
       </Button>
