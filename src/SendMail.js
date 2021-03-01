@@ -16,7 +16,14 @@ function SendMail() {
         <input type="text" />
 
         <div className="sendMail__options">
-          <Button>Send</Button>
+          <Button
+            className="sendMail__send"
+            variant="contained"
+            color="primary"
+            type="submit"
+          >
+            Send
+          </Button>
         </div>
       </form>
     </div>
