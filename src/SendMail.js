@@ -7,13 +7,17 @@ import { useForm } from "react-hook-form";
 function SendMail() {
   const { register, handleSubmit, watch, errors } = useForm();
 
+  const onSubmit = (data) => {
+    console.log(data);
+  };
+
   return (
     <div className="sendMail">
       <div className="sendMail__header">
         <h3>New Message</h3>
         <CloseIcon className="sendMail__close" />
       </div>
-      <form>
+      <form onSubmit={handleSubmit(onSubmit)}>
         <input
           name="to"
           placeholder="To"
