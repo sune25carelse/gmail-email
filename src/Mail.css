@@ -39,3 +39,21 @@
   font-weight: 400;
   margin-right: 20px;
 }
+
+.mail__bodyHeader > p {
+  margin-left: 20px;
+}
+
+.mail__time {
+  position: absolute;
+  top: 24px;
+  right: 0;
+  font-size: 12px;
+  color: gray;
+}
+
+.mail__message > p {
+  padding: 10px;
+  margin-right: 20px;
+  overflow-wrap: break-word;
+}
