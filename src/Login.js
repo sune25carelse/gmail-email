@@ -29,7 +29,7 @@ function Login() {
           alt=""
         />
 
-        <Button variant="contained" color="gray" onClick={signIn}>
+        <Button variant="contained" color="primary" onClick={signIn}>
           Login
         </Button>
       </div>
